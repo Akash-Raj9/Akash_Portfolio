@@ -164,7 +164,7 @@ A user-friendly Food Ordering Website built with the MERN stack, featuring secur
           />
           <h3>AI Chatbot</h3>
           <p>
-            An intelligent AI Chatbot built with the MERN stack and OpenAI integration, offering real-time conversational assistance, context-aware responses, and seamless web deployment
+            An intelligent Artificial Intelligence Chatbot built with the MERN stack and OpenAI integration, offering real-time conversational assistance, context-aware responses, and seamless web deployment
           </p>
           <div className="project-tech">
             <span>OpenAI</span>
