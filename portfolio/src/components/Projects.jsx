@@ -173,7 +173,7 @@ A user-friendly Food Ordering Website built with the MERN stack, featuring secur
             <span>Express.js</span>
             <span>MongoDB</span>
                          <a
-      href="https://AI-webapp-rho.vercel.app/" /* Replace with your actual deployed link */
+      href="https://foodie-webapp-rho.vercel.app/" /* Replace with your actual deployed link */
       target="_blank"
       rel="noopener noreferrer"
       className="project-demo-tag"
