@@ -50,9 +50,7 @@ export const Projects = () => {
             whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
           />
           <h3> Hospital Management System</h3>
-          <p>
-A Hospital Management System built in C with CSV file handling, enabling efficient patient management, appointments, billing, and staff records. The system implements role-based access control to ensure data security and organized operations.
-          </p>
+<p> A Hospital Management System built in C with CSV file handling, enabling efficient patient management, appointments, billing, and staff records. The system implements role-based access control to ensure data security and organized operations, along with features such as appointment scheduling for seamless healthcare service delivery. </p>
           <div className="project-tech">
             <span>C</span>
             <span>File Handling</span>
@@ -94,7 +92,7 @@ A Hospital Management System built in C with CSV file handling, enabling efficie
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.2 }}
           />
-          <h3>Food Ordering Website</h3>
+          <h3>Foodie – MERN Stack Food Ordering Website</h3>
           <p>
 A user-friendly Food Ordering Website built with the MERN stack, featuring secure authentication, menu browsing, cart management, order placement with address details, and an admin dashboard for managing orders and food items.
           </p>
@@ -103,6 +101,7 @@ A user-friendly Food Ordering Website built with the MERN stack, featuring secur
             <span>Node.js</span>
             <span>MongoDB</span>
             <span>Express.js</span>
+            <span>JWT</span>
              <a
       href="https://foodie-webapp-rho.vercel.app/" /* Replace with your actual deployed link */
       target="_blank"
@@ -157,23 +156,28 @@ A user-friendly Food Ordering Website built with the MERN stack, featuring secur
           <motion.div
             className="project-image"
             style={{
-              backgroundImage: "url('/projects/ai.png')",
+              backgroundImage: "url('/projects/JobNexus.png')",
             }}
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.2 }}
           />
-          <h3>AI Chatbot</h3>
-          <p>
-            An intelligent Artificial Intelligence Chatbot built with the MERN stack and OpenAI integration, offering real-time conversational assistance, context-aware responses, and seamless web deployment
-          </p>
-          <div className="project-tech">
-            <span>OpenAI</span>
-            <span>React.js</span>
-            <span>Node.js</span>
-            <span>Express.js</span>
-            <span>MongoDB</span>
+      
+          <h3>JobNexus – MERN Stack Job Portal</h3>
+<p>
+A user-friendly job portal built with the MERN stack, featuring secure login/signup, job posting and browsing, application tracking, media uploads via Cloudinary, and a responsive UI styled with Tailwind CSS.
+</p>
+
+<div className="project-tech">
+  <span>MongoDB</span>
+  <span>Express.js</span>
+  <span>React.js</span>
+  <span>Redux Toolkit</span>
+  <span>Node.js</span>
+  <span>Cloudinary</span>
+  <span>Tailwind CSS</span>
+
                          <a
-      href="https://foodie-webapp-rho.vercel.app/" /* Replace with your actual deployed link */
+      href="https://job-nexus-pearl.vercel.app/" /* Replace with your actual deployed link */
       target="_blank"
       rel="noopener noreferrer"
       className="project-demo-tag"
@@ -194,7 +198,7 @@ A user-friendly Food Ordering Website built with the MERN stack, featuring secur
       Live Demo
     </a>
       <a
-    href="https://github.com/Akash-Raj9"  // Replace with your GitHub repo URL
+    href="https://github.com/Akash-Raj9/JobNexus"  // Replace with your GitHub repo URL
     target="_blank"
     rel="noopener noreferrer"
     className="project-tech-link"

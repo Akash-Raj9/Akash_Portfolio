@@ -10,15 +10,15 @@ export const Skills = () => {
   const skills = [
     {
       title: "Programming Languages & Core Skills",
-      items: ["JavaScript", "C++", "C", "SQL"],
+      items: ["JavaScript", "C++", "C", "SQL", "HTML"],
     },
     {
       title: "Frameworks and Libraries",
-      items: ["React", "Node.js", "Express", "Redux"],
+      items: ["Redux Toolkit", "Tailwind CSS", "React.js", "Node.js", "Express.js",],
     },
     {
       title: "Databases, Tools & Platforms",
-      items: ["MongoDB", "MySQL", "Git/GitHub", "Postman" ],
+      items: ["MongoDB", "Cloudinary", "MySQL", "Git/GitHub", "Postman" ],
     },
   ];
 
