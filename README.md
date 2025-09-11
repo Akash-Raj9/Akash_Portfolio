@@ -1,5 +1,5 @@
-Akash Portfolio
-Overview
+# Akash Portfolio
+## Overview
 This is the personal portfolio website of Akash Raj, a Full Stack Developer. The site showcases beautiful digital experiences combining stunning design with powerful functionality. It highlights Akash’s skills, projects, and contact information for potential clients and employers.
 
 Live Demo
