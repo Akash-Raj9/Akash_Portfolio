@@ -62,7 +62,7 @@ export const Projects = () => {
             managing orders and food items.
           </p>
           <div className="project-tech">
-            <span>React</span>
+            <span>React.js</span>
             <span>Node.js</span>
             <span>MongoDB</span>
             <span>Express.js</span>
@@ -140,7 +140,7 @@ export const Projects = () => {
             <span>MongoDB</span>
             <span>Express.js</span>
             <span>React.js</span>
-            <span>Redux Toolkit</span>
+            <span>Redux</span>
             <span>Node.js</span>
             <span>Cloudinary</span>
             <span>Tailwind CSS</span>
@@ -263,7 +263,7 @@ export const Projects = () => {
             events, and results through a powerful admin dashboard.
           </p>
           <div className="project-tech">
-            <span>React</span>
+            <span>React.js</span>
             <span>Node.js</span>
             <span>MongoDB</span>
             <span>Express.js</span>
