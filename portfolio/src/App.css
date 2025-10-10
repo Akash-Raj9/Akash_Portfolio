@@ -593,13 +593,33 @@ body {
   margin-bottom: 3rem;
 }
 
-.project-grid {
+/* .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   max-width: 1200px;
   margin: 0 auto;
+} */
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4rem;       /* ⬅ more space between projects in the same row */
+  row-gap: 2.5rem;        /* ⬅ slightly less between rows */
+  max-width: 950px;       /* balanced width */
+  margin: 0 auto;
+  padding: 0 1rem;
 }
+
+@media (max-width: 768px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+    column-gap: 0;        /* not needed on mobile */
+    row-gap: 1.2rem;
+  }
+}
+
 
 .project-card {
   background: var(--card-bg);
