@@ -218,7 +218,7 @@ export const Projects = () => {
             <span>C</span>
             <span>File Handling</span>
             <a
-              href="https://github.com/Akash-Raj9/Hospital-Management-System-Project" // Replace with your GitHub repo URL
+              href="https://github.com/Akash-Raj9/Hospital_management" // Replace with your GitHub repo URL
               target="_blank"
               rel="noopener noreferrer"
               className="project-tech-link"
