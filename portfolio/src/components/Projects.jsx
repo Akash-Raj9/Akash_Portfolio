@@ -56,15 +56,15 @@ export const Projects = () => {
           />
           <h3>FoodieWebapp – MERN Stack Food Ordering Website</h3>
           <p>
-            A user-friendly Food Ordering Website built with the MERN stack,
-            featuring secure authentication, menu browsing, cart management,
-            order placement with address details, and an admin dashboard for
-            managing orders and food items.
+            A full-featured Food Ordering Website built with the MERN stack, offering secure authentication, dynamic menu browsing, and seamless order placements. Includes real-time order tracking, admin analytics for managing food items, users, and order.
           </p>
+
           <div className="project-tech">
             <span>React.js</span>
             <span>Node.js</span>
+            <span>Javascript</span>
             <span>MongoDB</span>
+            <span>CSS3</span>
             <span>Express.js</span>
             <span>JWT</span>
             <a
@@ -142,6 +142,7 @@ export const Projects = () => {
             <span>React.js</span>
             <span>Redux</span>
             <span>Node.js</span>
+            <span>Javascript</span>
             <span>Cloudinary</span>
             <span>Tailwind CSS</span>
 
@@ -191,7 +192,80 @@ export const Projects = () => {
           </div>
         </motion.div>
 
+                <motion.div
+          className="project-card"
+          variants={fadeInUp}
+          whileHover={{ y: -10, transition: { duration: 0.2 } }}
+        >
+          <motion.div
+            className="project-image"
+            style={{
+              backgroundImage: "url('/projects/Skillify.png')",
+            }}
+            whileHover={{ scale: 1.05 }}
+            transition={{ duration: 0.2 }}
+          />
 
+          <h3>Skillify – AI powered Resume Creator</h3>
+          <p>
+            An AI-driven resume builder built with the MERN stack, featuring secure authentication, smart resume generation, Preview resume, PDF download and a modern responsive UI styled with Tailwind CSS.
+          </p>
+
+          <div className="project-tech">
+            <span>MongoDB</span>
+            <span>Express.js</span>
+            <span>React.js</span>
+            <span>Redux</span>
+            <span>Node.js</span>
+            <span>ImageKit</span>
+            <span>Tailwind CSS</span>
+            <span>Gemini Model</span>
+
+            <a
+              href="https://skillify-ai-powered-resume-w5ac.vercel.app/" /* Replace with your actual deployed link */
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-demo-tag"
+              style={{
+                padding: "0.3rem 0.8rem",
+                background: "rgba(255, 255, 255, 0.1)",
+                borderRadius: "50px",
+                fontSize: "0.8rem",
+                color: "#38bdf8" /* Accent color, adjust as needed */,
+                border: "1px solid #38bdf8" /* Matches tech tag border style */,
+                marginLeft: "0.5rem",
+                textDecoration: "none",
+                display: "inline-block",
+                fontWeight: 500,
+                transition: "all 0.3s ease",
+              }}
+            >
+              Live Demo
+            </a>
+            <a
+              href="https://github.com/Akash-Raj9/Skillify---AI-Powered-Resume" // Replace with your GitHub repo URL
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-tech-link"
+              style={{
+                padding: "0.3rem 0.8rem",
+                background: "rgba(255, 255, 255, 0.1)",
+                borderRadius: "50px",
+                fontSize: "0.8rem",
+                color: "#38bdf8",
+                border: "1px solid #38bdf8",
+                textDecoration: "none",
+                fontWeight: 500,
+                marginLeft: "0.4rem",
+                transition: "all 0.3s ease",
+                cursor: "pointer",
+                display: "inline-block",
+              }}
+            >
+              GitHub
+            </a>
+          </div>
+        </motion.div>
 
 
         <motion.div
@@ -313,6 +387,7 @@ export const Projects = () => {
             </a>
           </div>
         </motion.div>
+
       </motion.div>
     </motion.section>
   );
